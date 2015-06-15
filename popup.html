@@ -1,21 +1,20 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Bass Monkey</title>
+		<title>Pelican Blog Extension</title>
 
 		<script src="js/jquery-2.1.0.min.js"></script>
-		<script src="js/popup.js"></script>
 
 		<link href="css/popup.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
-		<h1>Bass Monkey</h1>
 
-		<p><a id="demoTab" href="#">Open Demo Tab</a></p>
+		<iframe id="main-iframe" name="bookmark-iframe"></iframe>
 
-		<div id="bookmarks">
-
-		</div>
-
+		<!-- JAVASCRIPT -->
+		<script src="js/popup.js"></script>
+		<!-- SERVICE -->
+		<script src="js/getDataService.js"></script>
+		<script src="js/cookiesService.js"></script>
 	</body>
 </html>

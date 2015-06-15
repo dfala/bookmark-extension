@@ -1,17 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "Bass Monkey",
-  "description": "View your bookmarks in lists, just like a bass monkey does.",
+  "name": "Pelican Blog",
+  "description": "Save and share awesome content. A Pinterest for written content.",
   "version": "0.1",
   "permissions": [
-    "bookmarks",
     "tabs"
   ],
   "browser_action": {
     "default_icon": "images/icon.png",
     "default_popup": "popup.html"
-  },
-  "background": {
-    "scripts": ["js/popup.js"]
   }
 }
