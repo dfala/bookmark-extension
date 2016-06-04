@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Pelican Blog",
   "description": "Save and share awesome content. A Pinterest for written content.",
-  "version": "0.1",
+  "version": "0.11",
   "permissions": [
     "tabs"
   ],
