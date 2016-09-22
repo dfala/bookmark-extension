@@ -1,4 +1,4 @@
-var iframeRoot = 'https://pelican.firebaseapp.com/#/bookmark/?=';
+var iframeRoot = 'http://localhost:3000/bookmark/?=';
 
 chrome.tabs.getSelected(null,function(tab) {
     var tablink = tab.url;
@@ -7,3 +7,8 @@ chrome.tabs.getSelected(null,function(tab) {
 
     $('#main-iframe').attr('src', uri);
 });
+
+window.askNewTab = function (newUrl) {
+  console.warn(newUrl);
+  chrome.tabs.create({ url: newURL })
+};
