@@ -1,4 +1,4 @@
-var iframeRoot = 'http://thepelicanblog.com/bookmark/?=';
+var iframeRoot = 'https://thepelicanblog.com/bookmark/?=';
 
 chrome.tabs.getSelected(null,function(tab) {
     var tablink = tab.url;
